@@ -1,0 +1,26 @@
+.panel {
+    width: 700px;
+    height: 500px;
+}
+
+.city {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    border: 1px #fff solid;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.city .icon {
+    overflow: hidden;
+}
+.city .icon img {
+    width: 200px;
+    height: 200px;
+}
+
+@media(max-width: 768px) {
+    .panel {
+        width: 480px;
+    }
+    
+}
